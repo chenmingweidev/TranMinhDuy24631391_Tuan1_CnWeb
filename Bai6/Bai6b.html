@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bai 6b</title>
+        <style>
+            .box{
+                width: 1000px;
+                border: 2px solid pink;
+                padding: 10px;
+                text-align: justify;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Chuyển Qua Bài Tập Khác</h2>
+        <ol>
+        <li>
+            <a href="Bai1.html">Bài 1</a>
+        </li>
+        <li>Bài 2
+            <ul>
+                <li> 
+                    <a href="Bai2/Bai2a.html">Bài 2a</a>
+                </li>
+                <li> 
+                    <a href="Bai2/Bai2b.html">Bài 2b</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="Bai3/hometxt.html">Bài 3</a>
+        </li>
+        <li>
+            <a href="Bai4/hometxt.html">Bài 4</a>
+        </li>
+        <li>Bài 5
+            <ol>
+                <li>
+                    <a href="Bai5/Bai5a.html">Bài 5a</a>
+                </li>
+                <li>
+                    <a href="Bai5/Bai5b.html">Bài 5b</a>
+                </li>
+            </ol>
+        </li>
+        <li>bài 6
+            <ol>
+                <li>
+                    <a href="Bai6/Bai6a.html">Bài 6a</a>
+                </li>
+                <li>
+                    <a href="Bai6/Bai6b.html">Bài 6b</a>
+                </li>
+                <li>
+                    <a href="Bai6/Bai6c.html">Bài 6c</a>
+                </li>
+            </ol>
+        </li>
+    </ol>
+        <div class="box">
+        <h1>Contact Us</h1>
+        <form action="https://www.coursera.org" method="post">
+            <fieldset>
+                <legend>Your message:</legend>
+                <table>
+                    <tr>
+                        <td>To</td>
+                        <td>
+                            <input type="text" name="to" placeholder="Example Cafe">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Your email:</td>
+                        <td>
+                            <input type="email" name="mail" placeholder="ABC@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td>
+                            <textarea name="comment"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Attach File</td>
+                        <td>
+                            <input type="file" name="file">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>How you found us:</legend>
+                <table>
+                    <tr>
+                        <td>How did you hear of us</td>
+                        <td>
+                            <select name="where">
+                                <option>Google</option>
+                                <option>X(twitter)</option>
+                                <option>Facebook</option>
+                                <option>Telegram</option>
+                                <option>微信/小红书</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Newsletter</td>
+                        <td>
+                            <input type="checkbox" id="ensure" name="ensure">
+                            <label for="ensure">Ensure this box checked if you would like to receive email updates</label>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Send message">
+        </form>
+        </div>
+    </body>
+</html>
