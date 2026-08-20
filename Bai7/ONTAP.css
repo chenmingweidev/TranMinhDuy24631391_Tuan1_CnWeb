@@ -1,0 +1,17 @@
+h1{color:aquamarine}
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+table{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+.box{
+    border: 2px solid rgb(30, 179, 127);
+    padding: 20px;
+    width: fit-content;   /* Viền co lại vừa khít nội dung bên trong */
+    margin: 20px auto;    /* Căn cả khối form vào chính giữa màn hình */
+    background-color:rgb(161, 134, 213); 
+}
